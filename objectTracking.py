@@ -10,7 +10,7 @@ ref = db.reference("/MK")  # Change the reference to the "MK" child node
 
 def track_orange_object():
     # Open the webcam (you can replace '0' with the camera index if you have multiple cameras)
-    cap = cv2.VideoCapture("km_track_720p_30f_20240311_091942.mp4")
+    cap = cv2.VideoCapture(0)
 
     while True:
         # Read a frame from the webcam
